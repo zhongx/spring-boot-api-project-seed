@@ -50,11 +50,11 @@
             <artifactId>guava</artifactId>
             <version>23.0</version>
         </dependency>
-        <!--MySQL JDBC驱动-->
+        <!--Sqlserver JDBC驱动-->
         <dependency>
-            <groupId>mysql</groupId>
-            <artifactId>mysql-connector-java</artifactId>
-            <scope>runtime</scope>
+            <groupId>com.microsoft.sqlserver</groupId>
+            <artifactId>sqljdbc6</artifactId>
+            <version>4.2</version>
         </dependency>
         <!--MyBatis 及 插件依赖-->
         <dependency>

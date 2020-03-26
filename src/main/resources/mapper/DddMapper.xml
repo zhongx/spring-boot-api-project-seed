@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.company.project.dao.DddMapper">
+  <resultMap id="BaseResultMap" type="com.company.project.model.Ddd">
+    <!--
+      WARNING - @mbg.generated
+    -->
+    <id column="ddd" jdbcType="VARCHAR" property="ddd" />
+    <result column="xxx" jdbcType="VARCHAR" property="xxx" />
+    <result column="yyy" jdbcType="VARCHAR" property="yyy" />
+    <result column="zzz" jdbcType="VARCHAR" property="zzz" />
+    <result column="kkk" jdbcType="VARCHAR" property="kkk" />
+  </resultMap>
+</mapper>
